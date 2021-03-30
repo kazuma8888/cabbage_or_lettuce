@@ -3,11 +3,7 @@ import torch
 import glob
 import cv2
 import pickle
-import torch.nn as nn
-import torch.optim as optim
-import torchvision
 import torchvision.transforms as transforms
-from torch.utils.data import random_split
 from collections import OrderedDict
 
 from transformer import ComposeTransform, SimpleTransform
